@@ -1,0 +1,240 @@
+{
+  "systems": {
+    "engine": {
+      "featureNames": [
+        "rpm",
+        "speed",
+        "engineLoad",
+        "throttlePosition"
+      ],
+      "stats": {
+        "mins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxs": [
+          16369.25,
+          255,
+          100,
+          100
+        ],
+        "means": [
+          900.4305757908802,
+          14.564757328451732,
+          25.41531614937708,
+          20.776688977816022
+        ]
+      },
+      "threshold": 0.0011822181986644864,
+      "meanError": 0.00009058961844951032,
+      "p95Error": 0.00047182876733131707,
+      "p99Error": 0.0011822181986644864,
+      "inputDim": 4,
+      "scannedDocuments": 883268,
+      "usableRows": 504543,
+      "featureCoverage": {
+        "rpm": 0.8142036165693765,
+        "speed": 0.6864564322493286,
+        "engineLoad": 0.5933929452895383,
+        "absoluteLoad": 0.2697018345507819,
+        "throttlePosition": 0.6631916926685898,
+        "relativeThrottlePosition": 0.26364138630630796,
+        "timingAdvance": 0.39687388199278134,
+        "runtime": 0.19990082285331293,
+        "acceleratorPosD": 0.2491735237776077,
+        "acceleratorPosE": 0.24128124193336564,
+        "acceleratorPosF": 0.012276002300547512
+      }
+    },
+    "fuel": {
+      "featureNames": [
+        "fuelLevel",
+        "fuelPressure",
+        "fuelTrimShortB1",
+        "fuelTrimLongB1",
+        "fuelTrimShortB2",
+        "fuelTrimLongB2",
+        "maf",
+        "map",
+        "barometricPressure"
+      ],
+      "stats": {
+        "mins": [
+          0,
+          207,
+          -100,
+          -92.96875,
+          -100,
+          -13.28125,
+          0,
+          17,
+          95.00811001478449
+        ],
+        "maxs": [
+          100,
+          576,
+          96.875,
+          27.34375,
+          42.1875,
+          94.53125,
+          103.03,
+          255,
+          106
+        ],
+        "means": [
+          39.0865946442204,
+          399.0632075187604,
+          -1.5437591248081426,
+          -2.034953443713301,
+          -0.48839521638272587,
+          4.835493429417726,
+          7.9658868809884344,
+          45.458645637954575,
+          98.34549832875331
+        ]
+      },
+      "threshold": 0.0031681775581091642,
+      "meanError": 0.0006440433675545804,
+      "p95Error": 0.0017906505381688476,
+      "p99Error": 0.0031681775581091642,
+      "inputDim": 9,
+      "scannedDocuments": 883268,
+      "usableRows": 304662,
+      "featureCoverage": {
+        "fuelLevel": 0.6053825113102705,
+        "fuelRate": 0.012578288809285517,
+        "fuelPressure": 0.41496125751187635,
+        "fuelRailPressure": 0.012350724808325445,
+        "fuelTrimShortB1": 0.7042822789912009,
+        "fuelTrimLongB1": 0.6945083485420054,
+        "fuelTrimShortB2": 0.6151666311923448,
+        "fuelTrimLongB2": 0.6057232912321062,
+        "ethanolFuelPercent": 0.3714682293482839,
+        "maf": 0.5844579448140316,
+        "map": 0.5789431973081782,
+        "barometricPressure": 0.42042505785333556,
+        "vaporPressure": 0.39121195378978973
+      }
+    },
+    "exhaust": {
+      "featureNames": [
+        "o2B1S1Voltage",
+        "o2B1S2Voltage",
+        "o2B2S1Voltage",
+        "o2B2S2Voltage",
+        "catalystTempB1S1"
+      ],
+      "stats": {
+        "mins": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxs": [
+          2.2122802734375,
+          1.275,
+          1.275,
+          1.275,
+          960
+        ],
+        "means": [
+          0.426725661656906,
+          0.6437536919986586,
+          0.5244862426880273,
+          0.7467596099173694,
+          531.3770474188663
+        ]
+      },
+      "threshold": 0.003410719335079193,
+      "meanError": 0.0005765239114814291,
+      "p95Error": 0.002793101593852043,
+      "p99Error": 0.003410719335079193,
+      "inputDim": 5,
+      "scannedDocuments": 883268,
+      "usableRows": 499566,
+      "featureCoverage": {
+        "o2B1S1Voltage": 0.6154428780392814,
+        "o2B1S2Voltage": 0.7089830040259582,
+        "o2B1S3Voltage": 0.017522428073925466,
+        "o2B1S4Voltage": 0.017509974322629147,
+        "o2B2S1Voltage": 0.5793315279167818,
+        "o2B2S2Voltage": 0.5980517804335717,
+        "o2B2S3Voltage": 0.012377896629335604,
+        "o2B2S4Voltage": 0.012377896629335604,
+        "o2B1S1WR": 0.012377896629335604,
+        "o2B1S2WR": 0.012377896629335604,
+        "o2B1S3WR": 0.012377896629335604,
+        "o2B1S4WR": 0.012377896629335604,
+        "o2B2S1WR": 0.012377896629335604,
+        "o2B2S2WR": 0.012377896629335604,
+        "o2B2S3WR": 0.012377896629335604,
+        "o2B2S4WR": 0.012377896629335604,
+        "egrError": 0.016892947553856813,
+        "commandedEGR": 0.01973806364546208,
+        "secondaryAirStatus": 0.012276002300547512,
+        "catalystTempB1S1": 0.452881798049969,
+        "catalystTempB1S2": 0.04871001779754276,
+        "catalystTempB2S1": 0.3752156763292681,
+        "catalystTempB2S2": 0.019432380659097807,
+        "shortTermSecondaryO2B1": 0.02717634964699276,
+        "longTermSecondaryO2B1": 0.034331595846334294,
+        "shortTermSecondaryO2B2": 0.012276002300547512,
+        "longTermSecondaryO2B2": 0.012276002300547512
+      }
+    },
+    "cooling": {
+      "featureNames": [
+        "engineTemp",
+        "intakeTemp"
+      ],
+      "stats": {
+        "mins": [
+          -40,
+          -40
+        ],
+        "maxs": [
+          419,
+          70
+        ],
+        "means": [
+          116.71010266433616,
+          20.904608402268988
+        ]
+      },
+      "threshold": 0.0007508186972700059,
+      "meanError": 0.0002494802171978225,
+      "p95Error": 0.0005586259067058563,
+      "p99Error": 0.0007508186972700059,
+      "inputDim": 2,
+      "scannedDocuments": 883268,
+      "usableRows": 384560,
+      "featureCoverage": {
+        "engineTemp": 0.7853324245868751,
+        "intakeTemp": 0.4429369115602512,
+        "ambientTemp": 0.3882989081456591,
+        "chargeAirCoolerTemp": 0.012276002300547512
+      }
+    }
+  },
+  "source": {
+    "uri": "mongodb://192.168.1.125:27018",
+    "databaseName": "automotiveai",
+    "collectionName": "obd2datapoints",
+    "startDate": null,
+    "endDate": null,
+    "minDataQuality": null,
+    "includeInterpolated": false,
+    "batchSize": 256,
+    "findBatchSize": 1000,
+    "minFeaturePresence": 0.4,
+    "minFeatureSamples": 25,
+    "minRowCompleteness": 0.8,
+    "minSamples": 50,
+    "epochs": 50
+  },
+  "trainedAt": "2026-03-30T08:01:06.348Z"
+}
