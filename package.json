@@ -1,0 +1,28 @@
+{
+  "name": "obd2-anomaly-detection",
+  "version": "1.0.0",
+  "description": "TensorFlow.js anomaly detection for OBD2 vehicle telemetry data",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "train": "node src/train.js",
+    "predict": "node src/predict.js",
+    "predict:health": "node src/predictHealth.js",
+    "predict:health:mongo": "node src/predictFromMongo.js",
+    "evaluate": "node src/evaluate.js",
+    "train:fault-classifier": "node src/trainFaultClassifier.js",
+    "predict:fault-type": "node src/predictFaultType.js"
+  },
+  "keywords": [
+    "obd2",
+    "anomaly-detection",
+    "tensorflow"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "mongodb": "^7.1.0",
+    "papaparse": "^5.4.1"
+  }
+}
